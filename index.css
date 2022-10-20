@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: darkblue
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: auto auto;
+    text-align: center;
+    
+}
+#score-home-el{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid red;
+    padding: 30px;
+}
+#score-guest-el{
+    background-color: black;
+    padding: auto 40px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid red;
+    padding: 30px;
+}
+#home{
+    color: white;
+}
+#guest{
+    color: white;
+}
